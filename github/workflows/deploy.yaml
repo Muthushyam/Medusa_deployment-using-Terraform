@@ -42,4 +42,4 @@ jobs:
 
     - name: Deploy to ECS
       run: |
-        aws ecs update-service --cluster arn:aws:ecs:us-east-2:YOUR_ACCOUNT_ID:cluster/medusa-cluster --service medusa-service --force-new-deployment
+        aws ecs update-service --cluster arn:aws:ecs:us-east-2:905418011749:cluster/medusa-cluster --service medusa-service --force-new-deployment
